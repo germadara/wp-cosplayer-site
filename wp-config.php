@@ -20,6 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+
 define( 'DB_NAME', 'wp-germadara');
 
 /** MySQL database username */
@@ -32,7 +33,8 @@ define( 'DB_PASSWORD', '' );
 define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+
+define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,6 +48,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
+
 define( 'AUTH_KEY',         '#) 8Cn`>Sm@C)<)1/:~~`ET%}jsBnazSP@ls>kv;15JC>S`X[[$b.}=LH=lZA2 L' );
 define( 'SECURE_AUTH_KEY',  '%xP_z#x{?zm`:4CO2z-B1-$Txw73chts_C_c-:E1X]r${G~IOD5{9nLZC5a,#QHu' );
 define( 'LOGGED_IN_KEY',    'Ax&4$xr{270dV$o!1R]?,AWh[&<sKliS#tPQ5J!lpTtL;H^yoMi|]Zmqq%77-FW@' );
